@@ -1,5 +1,5 @@
 const config = {
-    url:'http://localhost:2014'
+    url:'https://backend-1bz3.onrender.com'
 };
 
 export default config;
