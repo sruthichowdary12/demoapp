@@ -15,11 +15,8 @@ import Admin from "../assets/admin.gif";
 
 const ChooseUser = ({ visitor }) => {
   const navigate = useNavigate();
-  const password = "zxc";
 
-  const [loader, setLoader] = useState(false);
-  const [showPopup, setShowPopup] = useState(false);
-  const [message, setMessage] = useState("");
+  const [loader] = useState(false);
 
   const navigateHandler = (user) => {
     if (user === "Admin") {

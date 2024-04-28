@@ -88,11 +88,7 @@ const TeamMember = styled.div`
     text-align: center;
 `;
 
-const StyledLink = styled(Link)`
-    text-decoration: none;
-    color: inherit;
-    margin-right: 20px;
-`;
+
 
 const Footer = styled.footer`
     background-color: #f0f0f0;

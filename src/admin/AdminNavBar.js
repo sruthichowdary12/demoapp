@@ -30,27 +30,28 @@ export default function AdminNavBar() {
           <li><Link to="/AdminHome">Home</Link></li>
           <li><Link to="/AdminProfile">Profile</Link></li>
           <li className="dropdown">
-            <a href="#" className="dropbtn">Students</a>
-            <div className="dropdown-content">
-              <Link to="/AddStudent">Add Student</Link>
-              <Link to="/ViewStudents">View Students</Link>
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#" className="dropbtn">Faculty</a>
-            <div className="dropdown-content">
-              <Link to="/AddFaculty">Add Faculty</Link>
-              <Link to="/ViewFaculties">View Faculties</Link>
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#" className="dropbtn">Courses</a>
-            <div className="dropdown-content">
-              <Link to="/AddCourse">Add Course</Link>
-              <Link to="/ViewCourses">View Course</Link>
-              <Link to ="/viewmaterial">View Material</Link>
-            </div>
-          </li>
+  <button className="dropbtn">Students</button>
+  <div className="dropdown-content">
+    <Link to="/AddStudent">Add Student</Link>
+    <Link to="/ViewStudents">View Students</Link>
+  </div>
+</li>
+<li className="dropdown">
+  <button className="dropbtn">Faculty</button>
+  <div className="dropdown-content">
+    <Link to="/AddFaculty">Add Faculty</Link>
+    <Link to="/ViewFaculties">View Faculties</Link>
+  </div>
+</li>
+<li className="dropdown">
+  <button className="dropbtn">Courses</button>
+  <div className="dropdown-content">
+    <Link to="/AddCourse">Add Course</Link>
+    <Link to="/ViewCourses">View Course</Link>
+    <Link to="/viewmaterial">View Material</Link>
+  </div>
+</li>
+
           <li><button className="logoutButton" onClick={handleLogout}>Logout</button></li>
         </ul>
       </nav>

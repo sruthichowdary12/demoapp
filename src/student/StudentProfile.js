@@ -1,20 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './student.css'; // Assuming you have a separate CSS file for styling student profile
 import student from '../assets/admin.jpeg';
 import ChangeStudentPwd from './ChangeStudentPwd'; 
 
 export default function StudentProfile() {
   const [name, setName] = useState('Student');
-  const [password, setPassword] = useState('');
-  const [tasks, setTasks] = useState([
+  const [tasks] = useState([
     'Task 1: Complete Assignment for Course A',
     'Task 2: Prepare for Exam in Course B',
     'Task 3: Attend Seminar in Course C',
-  ]);
-
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
+  ])
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];

@@ -39,7 +39,7 @@ const NavBar = () => {
             <Toolbar>
                 <Typography variant="h6" component={Link} to="/" style={{ flexGrow: 1, textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
                     Wisdom Wave
-                    <img src={Logo} alt="Logo" style={{ marginLeft: '10px', height: '30px' }} /> {/* Add your logo here */}
+                    <img src={Logo} alt="Logo" style={{ marginLeft: '10px', height: '30px' }} /> 
                 </Typography>
                 <NavLinks>
                     <NavLink to="/about" active={location.pathname === '/about' ? 1 : 0}>About</NavLink>
@@ -57,11 +57,7 @@ const StyledContainer = styled(Container)`
     padding: 20px;
 `;
 
-const StyledLink = styled(Link)`
-    text-decoration: none;
-    color: inherit;
-    margin-right: 20px;
-`;
+
 
 const Footer = styled.footer`
     background-color: #f0f0f0;

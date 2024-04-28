@@ -5,16 +5,13 @@ import ChangeFacultyPwd from './ChangeFacultyPwd';
 
 export default function FacultyProfile() {
   const [name, setName] = useState('Faculty');
-  const [password, setPassword] = useState('');
-  const [courses, setCourses] = useState([
+  const [courses] = useState([
     'Course A: Introduction to React',
     'Course B: Advanced JavaScript',
     'Course C: Web Development Fundamentals',
   ]);
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
+
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];

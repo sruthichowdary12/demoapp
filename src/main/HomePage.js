@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { AppBar, Toolbar, Container, Grid, Button, Typography } from '@mui/material';
+import { AppBar, Toolbar, Container, Grid, Typography } from '@mui/material';
 import styled from 'styled-components';
 import Students from "../assets/students.gif";
 import { LightPurpleButton } from '../components/buttonStyles';

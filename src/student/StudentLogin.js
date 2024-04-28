@@ -10,7 +10,6 @@ export default function StudentLogin({ onStudentLogin }) {
     password: ''
   });
   const [message, setMessage] = useState('');
-  const [error, setError] = useState('');
 
   const navigate = useNavigate();
 

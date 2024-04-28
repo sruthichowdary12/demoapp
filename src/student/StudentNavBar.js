@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Routes, Link, useNavigate } from 'react-router-dom';
 import './student.css'; // Assuming you have a separate CSS file for styling student dashboard components
-import { NavLink } from 'react-router-dom';
 import StudentHome from './StudentHome';
 import StudentProfile from './StudentProfile';
 import ViewCourses from './ViewCoursesbyStudent';

@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import './admin.css'; 
 import admin from '../assets/admin.jpeg';
 import ChangeAdminPwd from './ChangeAdminPwd';
-import config from '../config';
+
 export default function AdminProfile() {
   const [name, setName] = useState('Admin');
-  const [password, setPassword] = useState('');
-  const [tasks, setTasks] = useState([
+  const [tasks] = useState([
     'Task 1: Add new Student',
     'Task 2: Mapping Faculty to Course ',
     'Task 3: Update no.of course hours',
   ]);
 
-  const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
-  };
+
+
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];

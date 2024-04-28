@@ -11,7 +11,6 @@ export default function AdminLogin({ onAdminLogin }) {
     password: ''
   });
   const [message, setMessage] = useState("");
-  const [error, setError] = useState("");
 
   const navigate = useNavigate();
 
