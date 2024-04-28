@@ -1,0 +1,13 @@
+.flashcards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flashcard {
+    background-color: #e87777;
+    border: 1px solid #ce1919;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+  }
+  
