@@ -19,7 +19,7 @@ export default function AdminNavBar() {
   const handleLogout = () => {
     localStorage.removeItem('isAdminLoggedIn');
     localStorage.removeItem('admin');
-    navigate('/choose');
+    navigate('https://lms-mernstack-mswd.netlify.app/choose');
     window.location.reload();
   };
 
